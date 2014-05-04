@@ -43,7 +43,7 @@ using Datacratic::List;
 struct Deal
 {
     Datacratic::Id id;                     ///< DEAL ID
-    Datacratic::TaggedDouble bidfloor;     ///< Deal price floow
+    Datacratic::TaggedDouble bidfloor;     ///< Deal price floor
     std::string bidfloorcur;        ///< Currency
     Datacratic::List<std::string> wseat;        ///< Array of buyer seats allowed to bid on this
                                /// Direct Deal.
